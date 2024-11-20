@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Install dependencies
+        - npm ci
+    build:
+      commands:
+        # Build the Next.js app and export static files
+        - npm run build
+        - npm run export
+  artifacts:
+    # Specify the directory containing the static files
+    baseDirectory: out
+    files:
+      - '**/*'
+  cache:
+    # Cache node_modules to speed up builds
+    paths:
+      - node_modules/**/*
