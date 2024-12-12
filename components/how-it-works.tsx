@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { CalendarPlus, PackageCheck, Sparkles, ArrowDownToLine } from 'lucide-react';
 
-// Data for the "How It Works" steps
+// How it works steps data
 const HOW_IT_WORKS_STEPS = [
   {
     icon: CalendarPlus,
