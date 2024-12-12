@@ -10,7 +10,6 @@ export default function Home() {
       <Hero />
       <Services />
       <Features />
-      {/* <HowItWorksSection /> Removed */}
       <Whys />
       <Contact />
     </main>
