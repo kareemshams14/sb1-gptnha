@@ -1,8 +1,9 @@
-import { Hero } from "@/components/hero";
-import { Services } from "@/components/services";
-import { Features } from "@/components/features";
-import { WhyUs } from "@/components/why-us";
-import { Contact } from "@/components/contact";
+import { Hero } from '@/components/hero';
+import { Services } from '@/components/services';
+import { Features } from '@/components/features';
+import { Whys } from '@/components/why-us';
+import { Contact } from '@/components/contact';
+import { HowItWorksSection } from '@/components/how-it-works';
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <Hero />
       <Services />
       <Features />
-      <WhyUs />
+      <HowItWorksSection />
+      <Whys />
       <Contact />
     </main>
   );
