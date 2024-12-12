@@ -3,7 +3,6 @@ import { Services } from '@/components/services';
 import { Features } from '@/components/features';
 import { Whys } from '@/components/why-us';
 import { Contact } from '@/components/contact';
-import { HowItWorksSection } from '@/components/how-it-works';
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Features />
-      <HowItWorksSection />
+      {/* <HowItWorksSection /> Removed */}
       <Whys />
       <Contact />
     </main>
